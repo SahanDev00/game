@@ -8,6 +8,7 @@ import Camera from './Camera';
 import { OrbitControls } from '@react-three/drei';
 
 const Walkthrough = () => {
+  alert("Use W, A, S, D to PLAY.")
   const cameraRef = useRef();
   const playerRef = useRef();
 
